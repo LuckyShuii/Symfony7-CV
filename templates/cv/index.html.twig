@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Lucas Boillot - CV{% endblock %}
+
+{% block body %}
+
+    {% include 'cv/_hero.html.twig'%}
+
+    {% include 'cv/_separation.html.twig' with {'name': 'Mon profil'} %}
+
+    {% include 'cv/_profil.html.twig' %}
+
+    {% include 'cv/_separation.html.twig' with {'name': 'Mes expériences professionnelles'} %}
+
+    {% include 'cv/_experience.html.twig' %}
+
+    {% include 'cv/_separation.html.twig' with {'name': 'Mes formations'} %}
+
+    {% include 'cv/_formation.html.twig' %}
+
+    {% include 'cv/_separation.html.twig' with {'name': 'Me contacter'} %}
+
+    {% include 'cv/_contact.html.twig' %}
+
+    {% include 'cv/_footer.html.twig' %}
+
+{% endblock %}

@@ -1,0 +1,217 @@
+{
+  "basics": {
+    "name": "Lucas Boillot",
+    "label": "alternant développeur java/angular - Symfony",
+    "image": "lucas.png",
+    "summary": "Fort d'une année d'expérience professionnelle en tant que développeur web/web mobile et ayant suivi une formation approfondie sur Symfony 7, je suis actuellement à la recherche d’une alternance, d’une durée de 15 mois, au sein d'une entreprise dynamique en tant que développeur Java/Angular, à partir du 26 Février 2024. Mes compétences techniques s'accompagnent d'une solide base en anglais, validée par une première année de licence.",
+    "email": "lucasnimes30000@gmail.com",
+    "location": {
+      "city": "Toulouse",
+      "countryCode": "FR"
+    },
+    "github": "https://github.com/LuckyShuii",
+    "linkedin": "https://www.linkedin.com/in/lucas-boillot/",
+    "telephone": "+33 7 79 99 23 33"
+  },
+  "education" : [
+    {
+      "img": "img/wild.png",
+      "school": "Wild Code School",
+      "name": "Formation développeur web PHP/Symfony",
+      "startDate": "Décembre 2023",
+      "endDate": "Février 2024",
+      "website": "https://www.wildcodeschool.com/fr-FR",
+      "summary": "Formation de 3 mois en développement web, avec une spécialisation sur le framework Symfony. Un apprentissage autour de projets en groupe, de la veille technologique et des projets personnels.",
+      "courses": [
+            "PHP",
+            "Symfony",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "SQL",
+            "Git",
+            "Méthodes agiles",
+            "Composer",
+            "Twig",
+            "Bootstrap",
+            "API REST",
+            "MVC",
+            "POO",
+            "SCRUM",
+            "Doctrine",
+            "MySQL",
+            "Base de données"
+        ]
+    },
+    {
+      "img": "",
+      "school": "Université Toulouse Jean Jaurès",
+      "name": "Licence d'anglais - Première année",
+      "startDate": "2019",
+      "endDate": "2020",
+      "website": "https://www.unimes.fr/fr/index.html",
+      "summary": "Première année de licence d'anglais, validée avec mention assez bien.",
+      "courses": [
+        "Anglais",
+        "Littérature",
+        "Civilisation",
+        "Traduction",
+        "Phonétique",
+        "Grammaire",
+        "Expression écrite",
+        "Expression orale",
+        "Culture générale",
+        "Linguistique"
+      ]
+    },
+    {
+      "img": "img/simplon.png",
+      "school": "Simplon",
+      "name": "Titre Professionnel Développeur Web et Web Mobile - Bac +2",
+      "startDate": "2019",
+      "endDate": "2020",
+      "website": "https://simplon.co/",
+      "summary": "Formation de développeur web full stack. Apprentissage des langages de programmation web, des bases de données, des méthodes agiles et de la gestion de projet.",
+      "courses": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "Git",
+        "Méthodes agiles",
+        "Bootstrap",
+        "MVC",
+        "SCRUM",
+        "Base de données"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "reference": "Lucas s’est montré force de proposition durant toute la durée de son alternance, autant sur des sujets dev que ux ui et cybersécurité. Nous sommes ravis de rester en contact avec lui dans la suite de son parcours scolaire pro et de voir ses compétences évoluer. ",
+      "name": "Nicola Goubet"
+    }
+  ],
+  "work": [
+    {
+      "skills": [
+        {"name": "PHP 7"},
+        {"name": "MySQL / SQL"},
+        {"name": "JavaScript"},
+        {"name": "HTML / CSS"},
+        {"name": "Linux"},
+        {"name": "Visual Studio Code"},
+        {"name": "zsh / bash"},
+        {"name": "Git / GitHub / GitLab"},
+        {"name": "Bootstrap"},
+        {"name": "Figma"},
+        {"name": "FileZilla"},
+        {"name": "PhpMyAdmin"},
+        {"name": "npm"}
+      ],
+      "highlights": [
+        {"name": "Développement complet du site web de l'entreprise."},
+        {"name": "Coordination d'équipe entre partie développement, designer & stagiaire."},
+        {"name": "Méthodes agile : Scrum"},
+        {"name": "Modélisation et maintien de la base de données"},
+        {"name": "Développement sous un environnement Linux"},
+        {"name": "Utilisation de Google : Captcha, Analytic"},
+        {"name": "Utilisation des langages : PHP7.4, JavaScript, HTML, CSS, SQL"}
+      ],
+      "img": "img/ed-numerique.svg",
+      "summary": "Plateforme web sur laquelle une personne en difficulté numérique peut faire une demande d'aide à un intervenant, à domicile.",
+      "website": "http://ed-numerique.fr",
+      "company": "Ed Numérique - Lunel",
+      "position": "Développeur web Full Stack",
+      "startDate": "2020",
+      "endDate": "2021"
+    },
+    {
+      "skills": [
+        {"name": "PHP 7"},
+        {"name": "MySQL / SQL"},
+        {"name": "JavaScript"},
+        {"name": "HTML / CSS"},
+        {"name": "Linux"},
+        {"name": "Visual Studio Code"},
+        {"name": "zsh / bash"},
+        {"name": "Git / GitHub / GitLab"},
+        {"name": "Bootstrap"},
+        {"name": "Figma"},
+        {"name": "FileZilla"},
+        {"name": "PhpMyAdmin"},
+        {"name": "npm"}
+      ],
+      "highlights": [
+        {"name": "Développement de la structure du projet et backend concernant la gestion des différents utilisateurs."},
+        {"name": "Création des maquettes et wireframes"}
+      ],
+      "img": "img/ed-numerique.svg",
+      "summary": "Plateforme web sur laquelle une personne en difficulté numérique peut faire une demande d'aide à un intervenant, à domicile.",
+      "website": "http://ed-numerique.fr",
+      "company": "Ed Numérique - Lunel",
+      "position": "Développeur web Full Stack",
+      "startDate": "Mars 2020",
+      "endDate": "Juin 2020"
+    },
+    {
+      "skills": [
+      ],
+      "highlights": [
+        {"name": "Polyvalence dans les types de postes occupés"},
+        {"name": "Encaissement et efficacité dans la production"},
+        {"name": "Travail en équipe"}
+      ],
+      "img": "img/u.png",
+      "summary": "Travail d'hôte de caisse, une réelle gestion de la pression et de la rapidité m'a été nécessaire.",
+      "website": "",
+      "company": "Hyper U - Alès",
+      "position": "Hôte de caisse",
+      "startDate": "2017",
+      "endDate": "2019"
+    }
+  ],
+  "skills": [
+    {"name": "Symfony 7"},
+    {"name": "JavaScript"},
+    {"name": "MySQL / SQL"},
+    {"name": "Git / GitHub / GitLab"},
+    {"name": "PHP 7-8 / P.O.O."},
+    {"name": "PhpMyAdmin"},
+    {"name": "Twig"},
+    {"name": "API Rest"},
+    {"name": "Composer"},
+    {"name": "Docker"},
+    {"name": "HTML / CSS"},
+    {"name": "Figma"},
+    {"name": "Bootstrap"},
+    {"name": "Tailwind"},
+    {"name": "Brew"},
+    {"name": "npm"},
+    {"name": "zsh / bash"},
+    {"name": "FileZilla"},
+    {"name": "Visual Studio Code"},
+    {"name": "PHPStorm"},
+    {"name": "Linux"},
+    {"name": "MacOS"},
+    {"name": "Windows"}
+  ],
+  "softSkills": [
+    {"name": "Gestion du temps"},
+    {"name": "Capacité d'adaptation"},
+    {"name": "Travail en équipe"},
+    {"name": "Ponctuel"},
+    {"name": "Sens de l'observation"}
+  ],
+    "languages": [
+        {
+        "language": "Anglais",
+        "fluency": "Professionnel"
+        },
+        {
+        "language": "Français",
+        "fluency": "Natif"
+        }
+    ]
+}

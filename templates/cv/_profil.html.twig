@@ -1,0 +1,63 @@
+<article class="shadow-sm transition hover:shadow-lg my-8 bg-gray-800 space-y-2 mx-auto max-w-3xl rounded-xl p-4 sm:p-6 lg:p-8 text-gray-300">
+    <div class="flex items-start sm:gap-8">
+        <div
+                class="hidden sm:grid sm:h-32 sm:w-32 sm:shrink-0 sm:place-content-center sm:rounded-full"
+                aria-hidden="true"
+        >
+            <div class="flex items-center gap-1">
+                <img src="{{ asset('img/lucas.png') }}" alt="Lucas" class="rounded-full h-32 w-32">
+            </div>
+        </div>
+
+        <div>
+            <p class="mt-1 text-sm text-justify">
+                Fort d'une année d'expérience professionnelle en tant que développeur web/web mobile et ayant suivi une formation approfondie sur Symfony 7, je suis actuellement à la recherche d’une alternance, d’une durée de 15 mois, au sein d'une entreprise dynamique en tant que développeur Java/Angular, à partir du 26 Février 2024. Mes compétences techniques s'accompagnent d'une solide base en anglais, validée par une première année de licence.
+            </p>
+
+            <div class="mt-6 mb-6">
+                <h3 class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-2xl mt-4 mb-2 title-rainbow">
+                    Mes technologies
+                </h3>
+                <div id="icones" class="flex my-6">
+                    <img src="{{ asset('img/sf.png') }}" alt="Symfony Logo" class="w-12 h-12 mr-10">
+                    <img src="{{ asset('img/js.png') }}" alt="Symfony Logo" class="w-12 h-12 mr-10">
+                    <img src="{{ asset('img/mysql.png') }}" alt="Symfony Logo" class="w-22 h-12 mr-10">
+                    <img src="{{ asset('img/github.svg') }}" alt="Symfony Logo" class="w-12 h-12 mr-10">
+                </div>
+                <div class="flex">
+                    <ul class="ml-4 list-disc mt-1 text-sm">
+                        {% for skill in cv.skills|slice(0,8) %}
+                            <li>{{ skill.name }}</li>
+                        {% endfor %}
+                    </ul>
+                    <ul class="mx-12 list-disc mt-1 text-sm">
+                        {% for skill in cv.skills|slice(8,8) %}
+                            <li>{{ skill.name }}</li>
+                        {% endfor %}
+                    </ul>
+                    <ul class="list-disc mt-1 text-sm">
+                        {% for skill in cv.skills|slice(16,9) %}
+                            <li>{{ skill.name }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <h3 class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-2xl mt-4 mb-2 title-rainbow">
+                Mes compétences
+            </h3>
+            <div class="flex">
+                <ul class="ml-4 mt-2 list-disc mt-1 text-sm">
+                    {% for skill in cv.softSkills|slice(0,3) %}
+                        <li>{{ skill.name }}</li>
+                    {% endfor %}
+                </ul>
+                <ul class="mx-9 mt-2 list-disc mt-1 text-sm">
+                    {% for skill in cv.softSkills|slice(3,2) %}
+                        <li>{{ skill.name }}</li>
+                    {% endfor %}
+                    <li>Anglais (avancé)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,39 @@
+{% for work in cv.work %}
+    <section class="text-gray-300">
+        <div class="shadow-sm transition hover:shadow-lg my-8 bg-gray-800 space-y-2 mx-auto max-w-3xl text-center relative block overflow-hidden rounded-lg p-4 sm:p-6 lg:p-8 border-gray-700">
+
+            <div class="sm:flex sm:justify-between sm:gap-4">
+                <div>
+                    <h3 class="font-bold sm:text-xl">
+                        {{ work.position }}
+                    </h3>
+                    <h2 class="font-medium">{{ work.company }}</h2>
+
+                    <p class="mt-1 text-xs font-medium">{{ work.startDate }} à {{ work.endDate }}</p>
+                </div>
+
+                <div class="hidden sm:block sm:shrink-0">
+                    <img
+                            alt="Paul Clapton"
+                            src="{{ asset(work.img) }}"
+                            class="h-16 w-16 rounded-lg shadow-sm"
+                    />
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <ul class="my-10 ml-5 list-disc max-w-[55ch] text-left">
+                    {% for highlights in work.highlights %}
+                        <li class="">{{ highlights.name }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <ul class="flex flex-row flex-wrap justify-content-center align-items-center">
+                {% for skills in work.skills %}
+                    <li class="mt-1 mr-1"><span class="whitespace-nowrap rounded-full bg-gradient-to-r from-indigo-200 from-10% via-sky-200 via-100% px-2.5 py-0.5 text-sm text-black">{{ skills.name }}</span></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+{% endfor %}
