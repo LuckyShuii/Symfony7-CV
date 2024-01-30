@@ -1,4 +1,4 @@
-# Symfony 7 Learning Project
+# Symfony 7 Mon CV
 
 Bienvenue dans mon projet d'apprentissage Symfony 7 ! Ce projet a été créé pour démontrer mes compétences en développement tout en explorant les fonctionnalités les plus récentes de Symfony.
 
